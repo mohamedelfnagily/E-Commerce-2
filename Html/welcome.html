@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="icon" type="image/x-icon" href="../Images/icon.ico">
+    <link rel="stylesheet" href="../fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="stylesheet" href="../bootstrap-5.2.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Css/welcomePage.css">
+
+</head>
+
+<body>
+    <!-- start of navbar -->
+    <nav class="navBar">
+        <div class="navBarContainer">
+            <div class="col-4">
+                <i class="fa-solid fa-compress fa-2x "></i>
+            </div>
+            <div class="col-4 text-center">
+                <h2 class="fw-bolder">Fnagily's <span>Store</span></h2>
+            </div>
+            <div class="col-4 text-end d-flex justify-content-end">
+                <div class="position-relative">
+                    <i id="cartTogglingBtn"  class="fa-solid fa-cart-plus fa-2x"></i>
+                    <div class="bullet position-absolute fw-bolder"></div>
+                </div>
+
+            </div>
+        </div>
+
+    </nav>
+    <!-- End of navbar -->
+    <!-- Start of banner section -->
+    <section class="bannerSection">
+        <div class=" bannerCont">
+            <h1 class="fw-bolder">Furniture collection</h1>
+            <button  class="bannerBtn">Shop now</button>
+        </div>
+    </section>
+    <!-- end of banner section -->
+    <!-- start of products section -->
+    <section class="productSection">
+        <div class="w-100 text-center">
+            <h2>Our Products</h2>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+            </div>
+        </div>
+    </section>
+    <!-- end of products section -->
+    <!-- My side bar cart -->
+    
+    <div class="d-none"  id="productsCart">
+        <i  class="closeCart fa-solid fa-square-xmark position-absolute top-0 start-0 fa-3x"></i>
+        <div class="w-100 text-center ">
+            <h5 class="fw-bolder">Your Cart</h5>
+            
+        </div>
+
+    </div>
+    <!--end of My side bar cart -->
+    <!-- my product display cart -->
+    <div class="displayProductOverAll d-none">
+        <i class="closing fa-solid fa-square-xmark position-absolute top-0 end-0 fa-3x"></i>     
+        <div class="displayProductCont">
+            <img class="img-fluid" src="" alt="">
+            <div class="displayProductContText">
+                <h3></h3>
+                <h5 id="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime distinctio totam quidem culpa eius! Labore ratione veritatis facere debitis recusandae?</h5>
+                <h6></h6>
+            </div>
+            <div  class="displayProductBtn">
+                <p class="p-0 m-0">Add To Cart</p>
+            </div>
+        </div>
+
+    </div> 
+
+    <footer class="myFooter">
+
+    </footer>
+
+    <script type="module" src="../Js/welcome.js"></script>
+</body>
+
+</html>
